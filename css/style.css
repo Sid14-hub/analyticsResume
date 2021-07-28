@@ -306,6 +306,7 @@ nav{
    
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 .logo1{
     width: 117px;
@@ -356,4 +357,9 @@ nav{
     text-align: center;
     font-size: 2rem;
     padding-top:100px;
+}
+@media(max-width:1000px){
+    .lines{
+        font-size: 1rem;
+    }
 }
