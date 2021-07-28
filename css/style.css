@@ -129,6 +129,7 @@ nav{
     background-color: #fff;
     width: 100vw;
     height: 100vh;
+    z-index: 1;
 }
 .togglemenudiv.active{
     display: block;
