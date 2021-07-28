@@ -1,0 +1,358 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+.marginX{
+    margin: 0 20px;
+}
+.links{
+    display: flex;
+    align-items: center;
+}
+.links ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+.links ul li a{
+    text-decoration: none;
+    color: black;
+}
+.links ul li a:hover{
+    color: #0f88eb;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+}
+.log,.sign{
+    text-decoration: none;
+}
+.log{
+    color: #2196f3;
+}
+.sign{
+    font-weight: bold;
+    font-size: large;
+    border: 2px solid transparent;
+    background: #2196f3;
+    color: white;
+    padding: 10px;
+    align-items: baseline;
+    border-radius: 5px;
+}
+.sign:hover{
+    background: #0f88eb;
+}
+.resume{
+    position: absolute;
+    width: 100vw;
+    top: 50px;
+    left: 0;
+    background-color: #fff;
+    display:flex;
+    padding:1rem 3rem;
+    justify-content: space-around;
+    flex-wrap: wrap; 
+    z-index: 1;
+}
+.box{
+    padding: 30px;
+}
+.box:hover{
+    color: #0f88eb;
+}
+.second ul li{
+    display: block;
+    margin-bottom: 10px;
+}
+.second{
+    padding: 0 2rem;
+}
+.third{
+    background-color: #f2f5fa;
+    padding: 0 3rem;
+    padding-right: 14rem;
+    display: flex;
+    flex-direction: column;
+}
+.resumeopen{
+    display: none;
+}
+.active1:hover .resumeopen,.active2:hover .coveropen,.active3:hover .writeopen{
+    display: block;
+}
+.coveropen{
+    display: none;
+}
+.writep:hover{
+    color: #0f88eb;
+}
+.listresum li:hover{
+    color: #0f88eb;
+    cursor: pointer;
+}
+.write{
+    position: absolute;
+    left: 0;
+    top: 45px;
+    min-width: 100vh;
+    display: flex;
+    padding: 1rem 0;
+    align-items: center;
+    z-index: 1;
+}
+.left{
+    width: 50vw;
+    text-align: left;
+}
+.right{
+    width: 50vw;
+    padding: 4rem;
+    display: flex;
+    flex-direction: column;
+}
+.right img{
+    width: 200px;
+}
+.writeopen{
+    display: none;
+}
+.togglemenu{
+    display: none;
+    cursor: pointer;
+}
+.togglemenudiv{
+    position: absolute;
+    display: none;
+    background-color: #fff;
+    width: 100vw;
+    height: 100vh;
+}
+.togglemenudiv.active{
+    display: block;
+}
+.line2{
+    display: block;
+}
+.line2.active{
+    display: none;
+}
+.line1{
+    transform: rotate(0);
+}
+.line3{
+    transform: rotate(0);
+}
+.line1.active{
+    transform: translateY(2px) rotate(-45deg);
+    transform-origin: center;
+    transition: all 0.3s;
+}
+.line3.active{
+    transform: translateY(-1px) rotate(45deg);
+    transform-origin: center;
+    transition: all 0.3s;
+}
+@media(max-width:1100px){
+    .links{
+        display: none;
+    }
+    .togglemenu{
+        display: block;
+    }
+}
+@media(max-width:1295px){
+    .resume{
+        padding: 2rem 0;
+    }
+    .third{
+        flex-direction: row-reverse;
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+        padding: 2rem;
+    }
+    .left,.right{
+        width: 100vw;
+    }
+    .right{
+        flex-direction: row-reverse;
+        justify-content: space-between;
+    }
+    .right img{
+        padding-right: 100px;
+    }
+    .write{
+        flex-direction: column;
+    }
+    .left{
+        padding: 4rem;
+    }
+}
+.line{
+    width: 25px;
+    height: 3px;
+    background-color: #0f88eb;
+    margin: 2px 0;
+}
+/*----------- toggle div menu----------- */
+.resume1{
+    padding: 10px;
+}
+.resume1 ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: larger;
+}
+.resume1 ul li,.cover1 ul li,.about ul li{
+    padding: 8px 0;
+}
+.cover1{
+    padding: 10px;
+}
+.cover1 ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: larger;
+}
+.bluebtns{
+    padding: 10px;
+}
+.bluebtns a{
+    text-decoration: none;
+    color: #2196f3;
+    font-size: larger;
+    padding: 20px 0;
+}
+.about{
+    padding: 10px;
+    background-color: #f2f5fa;
+}
+/*----------------- bgthings----------- */
+.addtext{
+    text-align: center;
+}
+.addtext h6{
+    padding-top: 20px;
+    color: #363e96;
+}
+.addtext h1{
+    font-size: 45px;
+    margin: 20px 0;
+}
+.addtext p{
+    font-size: 20px;
+}
+.create{
+    text-align: center;
+    margin: 10px 0;
+    padding: 1rem;
+    width: fit-content;
+    position: relative;
+    margin: 30px auto;
+    border: 2px solid #2196f3;
+    background-color: #0f88eb;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+}
+.resumethings{
+    background-color: #f2f5fa;
+}
+.contain_img{
+    text-align: center;
+}
+.contain_img img{
+    width: 50%;
+    border-radius:20px 20px 0 0;
+}
+.online{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+}
+.green{
+    width: 2px;
+    height: 2px;
+    border: 2px solid transparent;
+    border-radius: 50%;
+    background-color: #25b869;
+    margin-right: 5px;
+    animation-name: glow;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+@keyframes glow{
+    from{
+       background-color: white;
+    }
+    to{
+       background-color: #25b869;
+    }
+}
+@media (max-width:1000px){
+    .contain_img img{
+        width: 80%;
+    }
+}
+/* ----------imglists---------- */
+.logolist{
+   
+    display: flex;
+    justify-content: center;
+}
+.logo1{
+    width: 117px;
+    height: 26px;
+    background: url('https://resume.io/assets/landing/home/logos-sprite-941feb15828e1a80840387cf5599251f363987594388efcaae3a01c60c1e8cf7.png');
+    background-repeat: no-repeat;
+    background-position: 7px -52px;
+    background-size: 166px;
+    margin: 10px;
+}
+.logo2{
+    width: 156px;
+    height: 27px;
+    background: url('https://resume.io/assets/landing/home/logos-sprite-941feb15828e1a80840387cf5599251f363987594388efcaae3a01c60c1e8cf7.png');
+    background-repeat: no-repeat;
+    background-position: 6px -26px;
+    background-size: 169px;
+    margin: 10px;
+}
+.logo3{
+    width: 172px;
+    height: 36px;
+    background: url('https://resume.io/assets/landing/home/logos-sprite-941feb15828e1a80840387cf5599251f363987594388efcaae3a01c60c1e8cf7.png');
+    background-repeat: no-repeat;
+    background-position: 6px -108px;
+    background-size: 161px;
+    margin: 10px;
+}
+.logo4{
+    width: 174px;
+    height: 34px;
+    background: url('https://resume.io/assets/landing/home/logos-sprite-941feb15828e1a80840387cf5599251f363987594388efcaae3a01c60c1e8cf7.png');
+    background-repeat: no-repeat;
+    background-position: 7px -81px;
+    background-size: 168px;
+    margin: 10px;
+}
+.logo5{
+    width: 75px;
+    height: 26px;
+    background: url('https://resume.io/assets/landing/home/logos-sprite-941feb15828e1a80840387cf5599251f363987594388efcaae3a01c60c1e8cf7.png');
+    background-repeat: no-repeat;
+    background-position: 7px 0;
+    background-size: 166px;
+    margin: 10px;
+}
+.lines{
+    text-align: center;
+    font-size: 2rem;
+    padding-top:100px;
+}

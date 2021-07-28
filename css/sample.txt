@@ -1,0 +1,59 @@
+<div class="whole">
+                                    <div>
+                                        <div class="left" style="display: flex; align-items: center; padding: 2rem;">
+                                           <div> 
+                                        <span> <h4 style="margin-bottom: 20px;"> Resume Writing </h4></span>
+                                        <img src="https://resume.io/assets/landing/nav/how-to-write-7e5a31921681293dd53814c65c16dc6549db8ab144836c451dc7cfec6d48d0db.svg"
+                                            alt="">
+                                        </div>
+                                        <div>
+                                            <p style="font-weight: bold; margin-bottom: 5px;" class="writep">How to
+                                                Write a resume <i class="fa fa-angle-right"
+                                                    style="color: #0f88eb; font-size: 25px;"></i></p>
+                                            <p style="font-size: 16px;">A complete guide with step by step expert tips.
+                                                Writing <br> your job-winning
+                                                resume has never been this easy!</p>
+                                        </div>
+                                    </div>
+                                    <hr>
+                                    <div class="lists" style="display:flex; margin:1rem;" >
+                                        <div>
+                                            <ul class="listresum">
+                                                <li style="display: block; margin-bottom: 10px ;">Resume formats</li>
+                                                <li style="display: block; margin-bottom: 10px ;">Chronological resume
+                                                </li>
+                                                <li style="display: block; margin-bottom: 10px ;">Functional resume</li>
+                                                <li style="display: block; margin-bottom: 10px ;">Summary, objective
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div>
+                                            <ul class="listresum">
+                                                <li style="display: block; margin-bottom: 10px ; "> Employment history
+                                                </li>
+                                                <li style="display: block; margin-bottom: 10px ; "> Skills </li>
+                                                <li style="display: block; margin-bottom: 10px ; "> Education </li>
+                                                <li style="display: block; margin-bottom: 10px ; "> Hobbies </li>
+                                            </ul>
+                                        </div>
+                                        <div>
+                                            <ul class="listresum">
+                                                <li style="display: block;margin-bottom: 10px ;">Refrences</li>
+                                                <li style="display: block;margin-bottom: 10px ;">Languages</li>
+                                                <li style="display: block;margin-bottom: 10px ;">Proofreading</li>
+                                                <li style="display: block;margin-bottom: 10px ;">International resume
+                                                </li>
+                                                <li style="display: block; color: #0f88eb; margin-bottom: 10px ;">Read
+                                                    full guide</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                                    <div class="right" style="background-color: #f2f5fa;">
+                                        <img src="https://resume.io/assets/landing/nav/plane-5d11050cf2f24ef7709c99ea911e040845902906d33d0f10c03dbbc89b35dbcc.svg" alt="">
+                                        <h3>Get Started Now</h3>
+                                        <p>Make your job-winning resume easy and fast with our top <br> resume builder.</p>
+                                        <p style="color: #0f88eb;">Create My Resume <i class="fa fa-angle-right"></i></p>
+                                    </div>
+                                </div>
