@@ -266,10 +266,21 @@ nav{
 }
 .contain_img{
     text-align: center;
+    animation-name: down-up;
+    animation-iteration-count: 1;
+    animation-duration: 0.5s;
 }
 .contain_img img{
     width: 50%;
     border-radius:20px 20px 0 0;
+}
+@keyframes down-up{
+    from{
+        transform: translateY(500px);
+    }
+    to{
+        transform: translateY(0);
+    }
 }
 .online{
     display: flex;
